@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     height: 100vh;
@@ -9,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .wrapper{
     display: flex;
@@ -31,4 +33,8 @@
 }
 .counter:active{
     transform: scale(.9);
+}
+span{
+    position: absolute;
+    bottom: 0;
 }
